@@ -27,3 +27,10 @@
 - Consolidation practice: all concepts written from memory, all queries clean
 - Committed parks_rec_fundamentals.sql to fundamentals/
 - Starting LeetCode SQL 50 next session
+
+## 2026-06-26
+- Completed active recall review of all intermediate and advanced SQL concepts
+- Concepts covered: JOINs, GROUP BY, WHERE vs HAVING, subqueries, CASE WHEN, UNION, CTEs, window functions, ROW_NUMBER/RANK/DENSE_RANK, LAG/LEAD, recursive CTEs
+- No notes or documentation — explain, get corrected, restate until clean
+- Completed intermediate problem set (10/10 correct)
+- Committed parks_rec_intermediate.sql to intermediate/
