@@ -34,3 +34,12 @@
 - No notes or documentation — explain, get corrected, restate until clean
 - Completed intermediate problem set (10/10 correct)
 - Committed parks_rec_intermediate.sql to intermediate/
+
+## 2026-06-27
+
+- Completed advanced problem set (ADV-01 through ADV-10)
+- Concepts covered: recursive CTEs, NTILE, PERCENT_RANK, LAG/LEAD, multi-CTE queries, org hierarchy traversal, salary gap analysis, retention proxies
+- Committed parks_rec_advanced.sql to advanced/
+- Started LeetCode SQL 50 — Select section, Easy tier (5/5 complete)
+- Problems completed: Recyclable and Low Fat Products, Find Customer Referee, Big Countries, Article Views I, Invalid Tweets
+- Concepts covered: basic SELECT, WHERE with multiple conditions, OR logic, NULL handling with IS NULL / IS NOT NULL, LENGTH() for string filtering
