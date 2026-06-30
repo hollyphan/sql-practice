@@ -43,3 +43,10 @@
 - Started LeetCode SQL 50 — Select section, Easy tier (5/5 complete)
 - Problems completed: Recyclable and Low Fat Products, Find Customer Referee, Big Countries, Article Views I, Invalid Tweets
 - Concepts covered: basic SELECT, WHERE with multiple conditions, OR logic, NULL handling with IS NULL / IS NOT NULL, LENGTH() for string filtering
+## 2026-06-29
+
+- Cold recall warm-up: 4/5 correct on first pass (WHERE/HAVING, LEFT JOIN behavior, RANK/DENSE_RANK concept correct; derived table naming and CTE definition required correction)
+- Correlated subquery execution direction: outstanding item from prior session, resolved and correctly restated (outer query drives, feeds each row to inner query, inner re-executes per row)
+- LeetCode SQL 50 - Managers with at Least 5 Direct Reports (Medium): solved after one correction round (GROUP BY column typo, HAVING off-by-one). Drilled COUNT(*) vs COUNT(column) NULL-exclusion behavior and why they're equivalent when counting the GROUP BY column itself
+- LeetCode SQL 50 - Confirmation Rate (Medium): started, stopped mid-approach. Identified need for confirmed rows but missed that the denominator requires total requests, not just confirmed count. Open item for next session.
+- Next session: resume Confirmation Rate (denominator gap, likely LEFT JOIN + conditional aggregation), then spaced repetition check on correlated subqueries with a new problem, then Students and Examinations if time allows
