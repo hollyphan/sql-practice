@@ -57,7 +57,15 @@
 - LeetCode SQL 50 - Average Selling Price (Easy): completed after multiple correction rounds. Key lessons: SUM(price * units) / SUM(units) for weighted average, date range condition belongs in ON clause not WHERE, LEFT JOIN required when products may have no matching sales rows, COALESCE(ROUND(...), 0) to handle NULL from unmatched LEFT JOIN rows
 - LeetCode SQL 50 - Project Employees I (Easy): completed. AVG() for straight averages vs SUM()/SUM() for weighted averages
 - LeetCode SQL 50 - Percentage of Users Attended a Contest (Easy): completed. Subquery in SELECT clause for fixed denominator, COUNT(*) / (SELECT COUNT(*) FROM table) * 100 percentage pattern, GROUP BY and ORDER BY are separate clauses
-- Flagged for spaced repetition: MOD() syntax, weighted vs straight average, subquery as denominator, GROUP BY vs ORDER BY confusion
 
 ## 2026-07-01
 - Completed all 18 SQLBolt lessons (Intro through Dropping Tables) — full syntax fluency pass: SELECT, constraints, filtering/sorting, JOINs (incl. OUTER), NULLs, expressions, aggregates, order of execution, INSERT/UPDATE/DELETE, CREATE/ALTER/DROP TABLE.
+- Completed cold recall warm-up: MOD() syntax, weighted vs. straight average, 
+  correlated subquery mechanism, WHERE vs. ON, COUNT(*) vs. COUNT(column) — 
+  all corrected and restated cleanly, dropped from active rotation
+- LeetCode SQL 50 — Basic Aggregate Functions section: COMPLETE (6/6, including 
+  all 3 Medium problems)
+  - Queries Quality and Percentage (Easy)
+  - Monthly Transactions I (Medium)
+  - Immediate Food Delivery II (Medium)
+  - Game Play Analysis IV (Medium)
