@@ -55,4 +55,6 @@
 - LeetCode SQL 50 - Confirmation Rate (Medium): completed. Drilled LEFT JOIN as base table anchor, conditional aggregation with SUM(CASE WHEN), ROUND(), and COALESCE necessity vs. ELSE 0 distinction
 - LeetCode SQL 50 - Not Boring Movies (Easy): completed after two syntax corrections (IS NOT vs !=, MOD syntax). MOD(column, divisor) = 1 pattern for odd number filtering
 - LeetCode SQL 50 - Average Selling Price (Easy): completed after multiple correction rounds. Key lessons: SUM(price * units) / SUM(units) for weighted average, date range condition belongs in ON clause not WHERE, LEFT JOIN required when products may have no matching sales rows, COALESCE(ROUND(...), 0) to handle NULL from unmatched LEFT JOIN rows
-- Flagged for spaced repetition: MOD() syntax, SUM() as denominator vs single row value, WHERE vs ON placement, COALESCE when NULL can reach output vs ELSE 0 when it cannot
+- LeetCode SQL 50 - Project Employees I (Easy): completed. AVG() for straight averages vs SUM()/SUM() for weighted averages
+- LeetCode SQL 50 - Percentage of Users Attended a Contest (Easy): completed. Subquery in SELECT clause for fixed denominator, COUNT(*) / (SELECT COUNT(*) FROM table) * 100 percentage pattern, GROUP BY and ORDER BY are separate clauses
+- Flagged for spaced repetition: MOD() syntax, weighted vs straight average, subquery as denominator, GROUP BY vs ORDER BY confusion
