@@ -58,3 +58,6 @@
 - LeetCode SQL 50 - Project Employees I (Easy): completed. AVG() for straight averages vs SUM()/SUM() for weighted averages
 - LeetCode SQL 50 - Percentage of Users Attended a Contest (Easy): completed. Subquery in SELECT clause for fixed denominator, COUNT(*) / (SELECT COUNT(*) FROM table) * 100 percentage pattern, GROUP BY and ORDER BY are separate clauses
 - Flagged for spaced repetition: MOD() syntax, weighted vs straight average, subquery as denominator, GROUP BY vs ORDER BY confusion
+
+## 2026-07-01
+- Completed all 18 SQLBolt lessons (Intro through Dropping Tables) — full syntax fluency pass: SELECT, constraints, filtering/sorting, JOINs (incl. OUTER), NULLs, expressions, aggregates, order of execution, INSERT/UPDATE/DELETE, CREATE/ALTER/DROP TABLE.
