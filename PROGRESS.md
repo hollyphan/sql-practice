@@ -63,9 +63,5 @@
 - Completed cold recall warm-up: MOD() syntax, weighted vs. straight average, 
   correlated subquery mechanism, WHERE vs. ON, COUNT(*) vs. COUNT(column) — 
   all corrected and restated cleanly, dropped from active rotation
-- LeetCode SQL 50 — Basic Aggregate Functions section: COMPLETE (6/6, including 
+- LeetCode SQL 50 — Basic Aggregate Functions section: COMPLETE (8/8, including 
   all 3 Medium problems)
-  - Queries Quality and Percentage (Easy)
-  - Monthly Transactions I (Medium)
-  - Immediate Food Delivery II (Medium)
-  - Game Play Analysis IV (Medium)
