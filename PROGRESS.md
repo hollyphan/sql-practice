@@ -65,3 +65,14 @@
   all corrected and restated cleanly, dropped from active rotation
 - LeetCode SQL 50 — Basic Aggregate Functions section: COMPLETE (8/8, including 
   all 3 Medium problems)
+  
+## 2026-07-02
+- LeetCode SQL 50 — Sorting and Grouping section: COMPLETE (7/7, including both Mediums)
+  - Number of Unique Subjects Taught by Each Teacher (Easy): COUNT(DISTINCT column) with GROUP BY
+  - User Activity for the Past 30 Days I (Easy): SUBDATE/INTERVAL for rolling date range in WHERE, COUNT(DISTINCT) grouped by date
+  - Product Sales Analysis III (Medium): subquery aggregates MIN(year) per group, joined back on composite key (product_id + year) to pull first-occurrence rows
+  - Classes With at Least 5 Students (Easy): GROUP BY + HAVING COUNT() >= threshold
+  - Find Followers Count (Easy): GROUP BY with COUNT(DISTINCT), ORDER BY
+  - Biggest Single Number (Easy): nested query — GROUP BY HAVING COUNT(*)=1 isolates unique values, outer MAX() on the filtered set
+  - Customers Who Bought All Products (Medium): GROUP BY HAVING COUNT(DISTINCT) = scalar subquery total — set-containment/"division" pattern
+- Sections complete to date: Select, Basic Joins, Basic Aggregate Functions, Sorting and Grouping
