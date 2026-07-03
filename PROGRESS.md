@@ -71,4 +71,22 @@
   - Find Followers Count (Easy): GROUP BY with COUNT(DISTINCT), ORDER BY
   - Biggest Single Number (Easy): nested query — GROUP BY HAVING COUNT(*)=1 isolates unique values, outer MAX() on filtered set
   - Customers Who Bought All Products (Medium): GROUP BY HAVING COUNT(DISTINCT) = scalar subquery total — set-containment/"division" pattern
-- Sections complete to date: Select, Basic Joins, Basic Aggregate Functions, Sorting and Grouping
+
+## 2026-07-03
+- LeetCode SQL 50 — Advanced Select and Joins section: COMPLETE (7/7)
+  - The Number of Employees Which Report to Each Employee (Easy): self-join (employees table to itself) to pair each employee with their manager, GROUP BY manager, AVG() with ROUND()
+  - Primary Department for Each Employee (Easy): UNION combining primary-flagged rows with employees who have only one department (HAVING COUNT(employee_id)=1)
+  - Triangle Judgement (Easy): CASE WHEN applying triangle inequality across three side columns
+  - Consecutive Numbers (Medium): LAG() window function with two offsets to compare current row against two preceding rows, DISTINCT to dedupe
+  - Product Price at a Given Date (Medium): derived table for MAX(change_date) per product up to cutoff, joined back on product_id + date; UNION with NOT IN subquery to default price 10 for products with no prior change
+  - Last Person to Fit in the Bus (Medium): running total via SUM() OVER (ORDER BY), filtered to <=1000, ORDER BY DESC LIMIT 1 to isolate the last qualifying row
+  - Count Salary Categories (Medium): conditional COUNT via CASE WHEN inside COUNT(), UNION ALL to stack category rows
+
+- LeetCode SQL 50 — Subqueries section: COMPLETE (7/7)
+  - Employees Whose Manager Left the Company (Easy): NOT EXISTS to filter employees whose manager_id has no matching row in the employees table
+  - Exchange Seats (Medium): CASE WHEN on odd/even id parity, LEAST() with subquery MAX(id) to handle the last unpaired seat
+  - Movie Rating (Medium): two independent ranked subqueries (most ratings by user, highest avg rating by movie in a date range) combined with UNION ALL
+  - Restaurant Growth (Medium): CTE chain — daily total via GROUP BY, then rolling 7-day SUM() OVER with ROWS BETWEEN, ROW_NUMBER() to exclude incomplete leading windows
+  - Friend Requests II: Who Has the Most Friends (Medium): UNION ALL to combine requester and accepter into one id column, GROUP BY + COUNT to find max
+  - Investments in 2016 (Medium): correlated conditions via IN subqueries — duplicate tiv_2015 values and unique (lat, lon) pairs — combined with SUM
+  - Department Top Three Salaries (Hard): CTE with DENSE_RANK() PARTITION BY department, JOIN back to department table, filtered to rank <=3
